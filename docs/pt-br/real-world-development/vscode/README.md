@@ -1,14 +1,15 @@
 ---
 slug: pt-br/real-world-development/vscode
 title: "VS Code"
+description: "Crie, teste e entregue alterações na Tailspin Toys enquanto aprende sobre instruções personalizadas, modo de agente, MCP, agentes personalizados e iteração no VS Code."
 authors:
   - geektrainer
-lastUpdated: 2026-06-30
+lastUpdated: 2026-09-16
 ---
 
-O **[GitHub Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** no VS Code traz o GitHub Copilot para o editor de código que você já usa. Trabalhando no Visual Studio Code (e no GitHub Codespaces), você conduzirá o Copilot Chat no modo de agente, conectará ferramentas externas por meio do MCP e contará com agentes personalizados — tudo sem sair do IDE, onde o Copilot tem uma visão completa dos arquivos, do terminal e dos problemas.
+O **[GitHub Copilot Chat](https://code.visualstudio.com/docs/copilot/chat/copilot-chat)** no VS Code traz o GitHub Copilot para o editor de código que você já usa. No Visual Studio Code e no GitHub Codespaces, você conduzirá o Copilot Chat no modo de agente, conectará ferramentas externas por meio do MCP e usará agentes personalizados — tudo sem sair do IDE, onde o Copilot tem uma visão completa dos arquivos, do terminal e dos problemas.
 
-Você começará adicionando instruções personalizadas e observando o Copilot segui-las; depois, usará o modo de agente para criar uma funcionalidade de filtragem que abrange a interface, a camada de dados e os testes. Em seguida, conectará o servidor MCP do Playwright e deixará o Copilot controlar um navegador para testar a funcionalidade antes de abrir um pull request. Por fim, revisará e usará um agente personalizado para o trabalho de acessibilidade e, então, monitorará, orientará e iterará sobre as alterações do Copilot — tudo sem sair do editor.
+Você começará adicionando instruções personalizadas e observando o Copilot segui-las. Depois, usará o modo de agente para criar uma funcionalidade de filtragem que abrange a interface, a camada de dados e os testes. Em seguida, conectará o servidor MCP do Playwright e deixará o Copilot controlar um navegador para testar a funcionalidade antes de abrir um pull request. Por fim, revisará e usará um agente personalizado para tarefas de acessibilidade e monitorará, orientará e iterará sobre as alterações do Copilot — tudo sem sair do editor.
 
 ## Exercícios
 
@@ -31,10 +32,10 @@ Antes de participar deste workshop, certifique-se de ter:
 - [ ] Acesso ao GitHub Codespaces
 
 > [!TIP]
-> Não tem um plano pago? Estudantes verificados podem obter o GitHub Copilot gratuitamente por meio do [GitHub Education][callout-student-plan-education]. O plano **Copilot Student** inclui os recursos de agente, MCP, revisão de código e Copilot CLI usados neste workshop — portanto, você pode concluir todas as trilhas com ele.
+> Não tem um plano pago? Estudantes verificados podem obter o GitHub Copilot gratuitamente por meio do [GitHub Education][callout-student-plan-education]. O plano **Copilot Student** inclui os recursos de agente, MCP, revisão de código e Copilot CLI usados neste workshop — assim, você pode concluir o workshop com esse plano.
 
 [callout-student-plan-education]: https://github.com/education/students
-## Primeiros passos
+## Comece
 
 **[Comece pelo Exercício 0: Pré-requisitos →][ex0]**
 
